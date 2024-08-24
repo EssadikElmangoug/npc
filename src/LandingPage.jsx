@@ -141,6 +141,14 @@ const LandingPage = () => {
           <img src="/tv.png" alt="TV Illustration" className='w-full h-auto rounded-lg'/>
         </div>
       </div>
+      <div className="w-full px-4 sm:px-6 lg:px-8 py-8 sm:py-12 text-center flex flex-col justify-center items-center bg-[#695252]">
+        <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6 sm:mb-8 text-[#E9A334] paragraph-stroke">HOW TO BUY?</h1>
+        <div className="w-full sm:w-3/4 lg:w-2/3 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8">
+          <img src="/telegou.png" alt="TV Illustration" className="w-full sm:w-1/2 h-auto rounded-lg" />
+          <button className="bg-[#762E2E] px-4 py-2 sm:px-5 sm:py-3 text-[#E8A233] text-base sm:text-lg border border-[#E9BD2B] rounded-xl">PLAY VIDEO</button>
+        </div>
+        <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mt-6 sm:mt-8 text-[#E9A334] paragraph-stroke">HOW TO BUY?</h1>
+      </div>
     </div>
   );
 };
